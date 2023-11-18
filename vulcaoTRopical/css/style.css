@@ -20,30 +20,31 @@ html {
     --fontPadrao1: font-family: 'Onest', sans-serif;
     font-family: 'Sometype Mono', monospace;
 
-}
+ }
 
 main {
-    max-width: 1900px;
+    max-width: 1950px;
     min-width: 200px;
-
     margin: auto;
 }
 
-.menu {
+.navbar{
     background-color: var(--corA);
     height: 55px;
-
+    width: 100%;
+    margin-bottom: 4px;
 
 }
 
-.menu ul {
+
+.navbar ul {
     display: flex;
     list-style-type: none;
     padding: 15px;
     width: 200px;
 }
 
-ul li a {
+.navbar ul li a {
     padding: 15px;
     text-decoration: none;
     color: #FFF;
@@ -53,34 +54,36 @@ ul li a {
 
 }
 
-ul li a:hover,
+.navbar ul li a:hover,
 .active {
     background-color: #5F815A;
     border-bottom: 4px #FCC51E solid;
 }
 
-.area-cliente {
-    position: absolute;
+.cadastro-login {
+    position: relative;
     text-align: end;
-    right: 80px;
-    top: 16px;
+    right: -85rem;
+    top: -40px;
     margin-right: 15px;
+    width: 500px;
 }
 
-.area-cliente a {
+.cadastro-login a {
     color: #FFF;
     text-decoration: none;
     font-family: var(--fontPadrao1);
     font-size: 15pt;
 }
 
-.frete>img {
+.img-Camfrete>img {
     width: 100px;
     position: absolute;
     left: 900px;
     top: -20px;
     cursor: pointer;
-}
+} 
+
 
 
 
